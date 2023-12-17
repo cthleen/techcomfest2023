@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Verdana', sans-serif;
+}
+
+nav{
+    position: fixed;
+    top: 0;
+    background-color: #AD8B73;
+    left: 0;
+    right: 0;
+    height: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+li{
+    display: inline-block;
+}
+
+a{
+    text-decoration: none;
+    color: #fffbe9;
+    margin: 10px;
+    transition: 0.3s;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+li:hover a{
+    background-color: #6b584c;
+    border-radius: 99px;
+}
+
+body{
+    margin-top: 90px;
+    background-color: #fffbe9;
+    background-image: url(items/prambanan.jpg);
+    background-position: 50% 20%;
+    background-size: cover;
+}
+
+main{
+    display: flex;
+    align-items: flex-end;
+    flex-wrap: nowrap;
+    height: 500px;
+    padding-top: 15px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+p{
+    text-align: justify;
+    color: white;
+}
