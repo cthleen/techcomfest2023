@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Verdana', sans-serif;
+}
+
+nav{
+    position: fixed;
+    top: 0;
+    background-color: #AD8B73;
+    left: 0;
+    right: 0;
+    height: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 10px;
+    box-sizing: border-box;
+    z-index: 99999;
+}
+
+li{
+    display: inline-block;
+}
+
+a{
+    text-decoration: none;
+    color: #fffbe9;
+    margin: 10px;
+    transition: 0.3s;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+li:hover a{
+    background-color: #6b584c;
+    border-radius: 99px;
+}
+
+main{
+    position: relative;
+    background-color: #fffbe9;
+    background-image: url(prambanan.jpg);
+    background-position: 50% 20%;
+    background-size: cover;
+    box-sizing: border-box;
+    margin: 0;
+    height: 100vh;
+
+}
+.container h1{
+    color: white;
+    padding-top: 65vh;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.box{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    /* background-color: rgba(0, 0, 0, 0.3); */
+    background-image: linear-gradient(rgba(0, 0, 0, 0),rgba(0, 0, 0, 0.5));
+    z-index: 99;
+}
+.container p{
+    text-align: justify;
+    color: white;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom:0;
+    z-index: 1000; /* Ubah nilai z-index menjadi lebih tinggi */
+}
