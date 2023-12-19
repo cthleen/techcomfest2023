@@ -176,9 +176,10 @@ footer{
 p{
   text-align: center;
 }
-@media only screen and (max-width: 1200px) {
+
+@media only screen and (min-width:768px) and (max-width: 1200px) {
   *{
-    font-size: 24px;
+    font-size: 16px;
   }
   article{
     width: 90%;
@@ -197,10 +198,30 @@ p{
     width: 533.33px;
     height: 306.66px;
   }
-  /* .wrapper .left{
-    left: 5px;
+}
+
+@media only screen and (max-width: 768px) {
+  *{
+    font-size: 16px;
   }
-  .wrapper .right{
-    right: 5px;
-  } */
+  article{
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    height: auto;
+  }
+  article img{
+    width: 95%;
+    height: auto;
+  }
+  article h2{
+    margin-top: 0px;
+  }
+  .wrapper{
+    margin: 20px auto;
+    width: 90%;
+  }
+  .carousel img{
+    width: 100%;
+  }
 }
