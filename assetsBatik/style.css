@@ -178,7 +178,7 @@ p{
 }
 @media only screen and (max-width: 1200px) {
   *{
-    font-size: 20px;
+    font-size: 24px;
   }
   article{
     width: 90%;
@@ -186,23 +186,21 @@ p{
     margin-right: 5%;
     height: 900px;
   }
-  article img{
-    width: 100%;
-  }
   article h2{
     margin-top: 0px;
   }
-  .carousel{
-    margin: auto;
-    width: 90%;
+  .wrapper{
+    margin: 20px auto;
+    width: 533.33px;
   }
   .carousel img{
-    width: 100%;
+    width: 533.33px;
+    height: 306.66px;
   }
-  .wrapper .left{
+  /* .wrapper .left{
     left: 5px;
   }
   .wrapper .right{
     right: 5px;
-  }
+  } */
 }
