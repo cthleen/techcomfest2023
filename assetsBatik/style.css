@@ -243,7 +243,7 @@ p{
   text-align: center;
 }
 
-@media only screen and (min-width:768px) and (max-width: 1200px) {
+@media only screen and (min-width:576px) and (max-width: 768px) {
   *{
     font-size: 16px;
   }
@@ -254,19 +254,19 @@ p{
     height: 900px;
   }
   article h2{
-    margin-top: 0px;
+    margin-top: 30px;
   }
   .wrapper{
     margin: 20px auto;
-    width: 533.33px;
+    width: 90%;
   }
   .carousel img{
-    width: 533.33px;
-    height: 306.66px;
+    width: 50%;
+    height: auto;
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 576px) {
   *{
     font-size: 16px;
   }
@@ -281,13 +281,14 @@ p{
     height: auto;
   }
   article h2{
-    margin-top: 0px;
+    margin-top: 30px;
   }
   .wrapper{
     margin: 20px auto;
-    width: 90%;
+    width: 80%;
   }
   .carousel img{
     width: 100%;
+    height: auto;
   }
 }
