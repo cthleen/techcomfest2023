@@ -8,7 +8,7 @@
 }
 /* 6A5826 */
 body{
-    background-color: black;
+    background-color: #161616;
 }
 nav{
     position: fixed;
@@ -30,7 +30,7 @@ nav{
 }
 nav h2{
     display: inline-block;
-    color: #DA9601;
+    color: #EEBA2C;
     margin-left: 20px;
     font-size: 28px;
 }
@@ -70,13 +70,13 @@ article{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    background-color: black;
+    background-color: #161616;
     padding-top: 20px;
     padding-bottom: 30px;
     padding-left: 50px;
     padding-right: 50px;
     box-sizing: border-box;
-    border: 2px solid  #DA9601;
+    border: 2px solid  #EEBA2C;
 }
 article h2{
     font-family: 'Poppins', sans-serif;
@@ -95,7 +95,7 @@ article img{
     width: 533.33px;
     height: 306.66px;
     margin-top: 20px;
-    border: 2px solid  #DA9601;
+    border: 2px solid  #EEBA2C;
     transition: 0.5px;
     transition: opacity 0.2s ease-in-out;
     object-fit: cover;
@@ -109,7 +109,7 @@ article img{
     margin-top: 20px;
   }
 .wrapper .arrow{
-    top: 25%;
+    top: 50%;
     height: 44px;
     width: 44px;
     position: absolute;
@@ -157,37 +157,52 @@ article img{
     box-sizing: border-box;
     /* transition: 0.3s; */
   }
-  .carousel{
-    margin-bottom: 200px;
-  }
   .carousel img:first-child{
     margin-left: 0px;
   }
 
 .carousel img:hover{
-    border: 3px solid  #DA9601;
+    border: 3px solid  #EEBA2C;
 }
-
-@media screen and (max-width: 900px) {
-  .carousel img{
-    width: calc(100% / 2);
+footer{
+  margin-top: 50px;
+  width: 100%;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-top: 3px solid  #EEBA2C;
+}
+p{
+  text-align: center;
+}
+@media only screen and (max-width: 576px) {
+  *{
+    font-size: 20px;
   }
-}
-@media screen and (max-width: 576px) {
   article{
     width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    height: 900px;
   }
   article img{
     width: 100%;
+  }
+  article h2{
+    margin-top: 0px;
   }
   .carousel{
     margin: auto;
     width: 90%;
   }
-  .arrow{
-    visibility: hidden;
-  }
   .carousel img{
     width: 100%;
+  }
+  .wrapper .left{
+    left: 5px;
+  }
+  .wrapper .right{
+    right: 5px;
   }
 }
