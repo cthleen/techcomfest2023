@@ -172,7 +172,7 @@ article p{
     -o-transition: opacity 0.5s ease-in-out;
     transition: opacity 0.5s ease-in-out;
 }
-article img{
+.video-container{
     width: 533.33px;
     height: 306.66px;
     margin-top: 20px;
@@ -183,10 +183,11 @@ article img{
     -webkit-transition: opacity 0.2s ease-in-out;
     -o-transition: opacity 0.2s ease-in-out;
     transition: opacity 0.2s ease-in-out;
-    -o-object-fit: cover;
-       object-fit: cover;
-    -o-object-position: center;
-       object-position: center;
+}
+
+iframe{
+    width: 100%;
+    height: 100%;
 }
 
 .wrapper{
@@ -346,7 +347,7 @@ nav ul.slide{
     margin-right: 5%;
     height: auto;
   }
-  article img{
+  article .video-container{
     width: 95%;
     height: auto;
   }
