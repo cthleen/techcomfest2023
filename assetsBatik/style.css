@@ -70,7 +70,7 @@ a{
 
 li:hover a{
     background-color: rgb(205,151,26);
-    border-radius: 99px;
+    border-radius: 97px;
 }
 .menu-toggle{
   flex-direction: column;
