@@ -23,43 +23,58 @@ function switch_content(source, newText) {
 function updateText(index) {
     if (index === 0) {
         switch_content(images[0].getAttribute("src"), {
-            title: "Rendang",
-            paragraph: "Rendang merupakan masakan yang berasal dari Minangkabau, terbuat dari olahan daging yang dimasak dengan bumbu rempah. Kuliner yang satu ini begitu digemari karena punya cita rasa yang lezat. Bahkan, tahun 2017 lalu, rendang dinobatkan sebagai makanan terenak nomor 1 versi CNN Travel."
-        });
+            title: "Batik Parang",
+            paragraph: "Batik Parang adalah motif tertua asal Jawa yang mempunyai makna tidak pantang menyerah. Motif batik ini seperti ombak mengibaratkan ombak laut yang tidak akan berhenti bergerak seperti semangat yang pantang menyerah. Ada sekitar enam motif Parang, yaitu Parang Rusak, Parang Barong, Parang Kusumo, Parang Kecil, Parang Slobog dan Parang Klitik."
+          });
     } else if (index === 1) {
         switch_content(images[1].getAttribute("src"), {
-            title: "Pempek",
-            paragraph: "Makanan berbahan daging ikan dan tepung kanji ini konon sudah ada sejak abad ke-16. Pempek menjadi kuliner favorit masyarakat, karena punya rasa yang komplit. Ada rasa asam, manis, pedas, dan gurih. Pempek juga hadir dalam beberapa jenis, antara lain pempek lenjer, bulat, kulit ikan, dan yang paling terkenal adalah pempek kapal selam, yang berisi telur ayam."
+            title: "Batik Truntum",
+            paragraph: "Motif Truntum kerap digunakan oleh orang tua yang ingin menikahkan anaknya dan mengandung makna cinta yang tulus tanpa syarat, abadi dan semakin lama semakin subur berkembang. Makna ini dalam bahasa Jawa disebut tumaruntum."
         });
     }else if(index ===2){
         switch_content(images[2].getAttribute("src"), {
-            title: "Gudeg",
-            paragraph: "Kalau berkunjung ke Jogja, rasanya kurang lengkap jika belum makan gudeg atau dijadikan sebagai oleh-oleh untuk orang tersayang. Gudeg Jogja terkenal dengan rasanya yang manis dan terbuat dari nangka muda yang diolah dengan santan. Makanan khas Jogja ini akan terasa lebih nikmat jika disantap dengan nasi hangat, kuah santan kental, ayam kampung, tempe, tahu, dan telur."
+            title: "Batik Megamendung",
+            paragraph: "Mega mendung merupakan motif batik terkenal asal Cirebon. Mega berarti langit atau awan, sedangkan mendung berarti langit gelap. Sesuai dengan namanya, motif ini mengadaptasi bentuk awan yang bergelung dengan warna yang bergradasi. Motif ini mengandung makna yang sangat dalam yaitu kesabaran, berkepala dingin dan tidak mudah marah dalam menghadapi masalah."
         });
     }else if(index==3){
         switch_content(images[3].getAttribute("src"), {
-            title: "Nasi Liwet",
-            paragraph: "Nasi liwet adalah nasi yang dimasak dengan santan dan punya rasa yang gurih, mirip dengan nasi uduk. Nasi ini disajikan dengan suwiran ayam, areh (santan kental), dan sayur labu siam. Rasanya benar-benar gurih sekali. Cocok disantap saat sarapan maupun makan malam."
+            title: "Batik Kawung",
+            paragraph: "Batik yang satu ini mempunyai pola bulatan yang serupa seperti buah Kawung, yaitu sejenis buah kelapa atau juga dianggap sebagai buah kolang-kaling yang ditata rapi secara geometris. Motif ini mempunyai makna keinginan dan usaha keras yang akan selalu membuahkan hasil. Selain itu, batik dengan motif Kawung juga melambangkan harapan agar manusia tetap selalu ingat akan asal usulnya."
         });
     }else if(index==4){
         switch_content(images[4].getAttribute("src"), {
-            title: "Bakso",
-            paragraph: "Makanan yang berupa bola daging ini biasanya terbuat dari campuran daging sapi giling dan tepung tapioka. Kini, bakso hadir dalam jenis yang lebih variatif dan tidak selalu berbentuk bulat. Satu porsi bakso biasanya akan disajikan dengan kuah kaldu dan diberi topping berupa mie, tahu, bawang goreng, dan seledri."
+            title: "Batik Sekar Jagad",
+            paragraph: "Motif Sekar Jagad merupakan motif pedalaman yang berasal dari Solo dan Yogyakarta. Motif ini mempunyai makna peta dunia. ‘Kar’ dalam kata Sekar berasal dari bahasa Belanda yang mempunyai arti peta. Motif ini menggambarkan bentuk kebaikan. Harapan yang tersemat dari motif batik Sekar Jagad adalah agar kegembiraan dan keelokan budi dari pemakainya bisa terlihat dengan penuh pesona dari batik yang dikenakannya."
         });
     }else if(index==5){
         switch_content(images[5].getAttribute("src"), {
-            title: "Lumpia",
-            paragraph: "Lumpia merupakan hasil olahan dari tepung beras yang dibentuk menjadi lembaran yang sangat tipis kemudian diberi berbagai macam isian, seperti rebung, telur, daging, sayuran segar, atau makanan laut."
+            title: "Batik Sidoasih",
+            paragraph: "Sidoasih merupakan nama dari gabungan dua kata yaitu “sido” yang berarti terus-menerus, dan “asih” yang berarti sayang. Maka, kira-kira arti dari Sidoasih adalah kasih sayang yang tidak pernah berhenti. Karena artinya kasih sayang, biasanya batik Sidoasih digunakan oleh para pengantin Jawa dengan harapan pernikahan mereka akan selalu penuh cinta dan kasih sayang."
         });
     }else if(index==6){
         switch_content(images[6].getAttribute("src"), {
-            title: "Rawon",
-            paragraph: "Indonesia punya banyak sekali makanan khas yang terbuat dari daging. Salah satunya adalah rawon. Sup daging dengan kuah kental berwarna hitam ini merupakan makanan khas yang berasal dari Jawa Timur. Warna hitam gelap pada rawon dihasilkan oleh kluwek dicampur dengan potongan daging sapi yang lembut. Rawon biasanya disajikan dengan nasi, tauge, daun bawang, telur asin, dan daun kerupuk udang sebagai pelengkap."
+            title: "Batik Alas-alasan",
+            paragraph: "Nama Alas-alasan berasal dari bahasa Jawa “Alas” yang berarti hutan. Nah, Alas-alasan dapat diartikan sebagai hutan-hutanan atau seperti hutan. Motif Alas-alasan ini termasuk salah satu motif batik tradisional yang pada motifnya terdapat berbagai macam jenis binatang. Makna dari motif ini adalah penggunanya diharapkan mampu mengajak orang lain untuk membaca ulang dan selalu mawas diri, arif, dan bijaksana selama menjalani hidup di dunia yang penuh dengan tantangan."
         });
     }else if(index==7){
         switch_content(images[7].getAttribute("src"), {
-            title: "Sate Lilit",
-            paragraph: "Sate yang menjadi ikon dari kuliner Bali ini cukup mudah ditemukan di berbagai lokasi wisata, seperti di Badung, Denpasar, hingga Gianyar. Untuk yang belum pernah mencoba, sate lilit itu apa sih? Berbeda dari sate pada umumnya yang berupa tusukan potongan daging, sate lilit berbentuk gumpalan adonan yang terbuat dari daging yang membalut tusuk sate. Selain itu, sate ini juga tidak dihidangkan dengan bumbu kacang, karena bumbu adonannya sudah kaya akan cita rasa."
+            title: "Batik Gurdha Latar Kembang",
+            paragraph: "Batik Gurdha Latar Kembang memiliki makna kedudukan yang baik. Hal ini digambarkan dari motif atau ornamen mahkota yang gagah dan dikelilingi oleh bunga di sekitarnya. Motif Gurdha Latar Kembang memiliki harapan agar yang memakainya mendapatkan kedudukan yang pantas dan baik."
+        });
+    }else if(index==8){
+        switch_content(images[8].getAttribute("src"), {
+            title: "Batik Ulamsari Mas",
+            paragraph: "Ulamsari Mas merupakan motif batik yang berasal dari Pulau Dewata, Bali. Motif ini biasanya menampilkan bentuk ikan dan udang yang menunjukkan kekayaan alam Bali. Selain itu, ikan dan udang yang termasuk ke dalam hewan laut ini menggambarkan mata pencaharian yang populer di kalangan masyarakat Bali, yaitu nelayan."
+        });
+    }else if(index==9){
+        switch_content(images[9].getAttribute("src"), {
+            title: "Batik Pring Sedapur",
+            paragraph: "Meski jarang didengar, Pring Sedapur merupakan motif batik yang terkenal unik dan indah. Pasalnya, motif batik khas Jawa Timur ini memadukan corak pohon bambu, dengan unsur-unsur alam. Menjadikan tanaman bambu sebagai objek utama, batik motif Pring Sedapur melambangkan persatuan dan kekuatan. Dengan kata lain, motif batik ini mengajarkan manusia untuk hidup bersama dan rukun satu sama lain."
+        });
+    }else if(index==10){
+        switch_content(images[10].getAttribute("src"), {
+            title: "Batik Sidoluhur",
+            paragraph: "Tak kalah menarik dengan lainnya, batik motif Sido Luhur juga menyimpan filosofi mendalam. Berasal dari kata “luhur” yang berarti agung dan terhormat, diharapkan siapa saja yang menggunakan batik Sido Luhur bisa menjadi panutan dan mendapatkan kehormatan dalam kehidupan. Menariknya, batik Sido Luhur kerap digunakan saat upacara mitoni (upacara adat saat memasuki usia 7 bulan kehamilan). Filosofinya, penggunaan batik Sido Luhur dapat membawa kebahagiaan."
         });
     }
 }
