@@ -20,8 +20,6 @@ body{
 nav{
     position: fixed;
     top: 0;
-    /* border-bottom: 2px solid  hsl(41, 99%, 43%); */
-    /* background-color:rgba(0, 0, 0,.5); */
     background-image: -webkit-gradient(linear,left top, left bottom,from(rgba(0, 0, 0, 1)),to(rgba(0, 0, 0, 0.6)));
     background-image: -o-linear-gradient(rgba(0, 0, 0, 1),rgba(0, 0, 0, 0.6));
     background-image: linear-gradient(rgba(0, 0, 0, 1),rgba(0, 0, 0, 0.6));
@@ -45,7 +43,16 @@ nav{
     z-index: 99999;
     /* box-shadow: 0px 5px 5px 0px hsla(41, 99%, 43%,.7); */
 }
+
+ul{
+  display: flex;
+  justify-content: space-around;
+  width: 80%;
+}
+
 nav h2{
+    position: relative;
+    z-index: -2;
     display: inline-block;
     color: #EEBA2C;
     margin-left: 20px;
@@ -72,10 +79,55 @@ li:hover a{
     background-color: rgb(205,151,26);
     border-radius: 99px;
 }
-/* li:nth-child(2) a{
-    background-color: #6b584c;
-    border-radius: 99px;
-} */
+.menu-toggle{
+  flex-direction: column;
+  height: 20px;
+  justify-content: space-between;
+  position: relative;
+  display: none;
+}
+.menu-toggle input{
+  position: absolute;
+  width: 68px;
+  height: 28px;
+  opacity: 0;
+  left: -20px;
+  top: -5px;
+  cursor: pointer;
+  z-index: 999px;
+}
+.menu-toggle input:checked{
+  left: -20px;
+}
+.menu-toggle span{
+  display: block;
+  height: 3px;
+  width: 28px;
+  color: white;
+  background-color: white;
+  transition: .3s;
+}
+
+/* Hamburger menu animation */
+.menu-toggle span:nth-child(2){
+  /* transform: rotate(45deg); */
+  transform-origin: 0 0;
+}
+.menu-toggle span:nth-child(4){
+  
+  transform-origin: 100% 100%;
+}
+.menu-toggle input:checked ~ span:nth-child(2){
+  transform: rotate(45deg);
+}
+
+.menu-toggle input:checked ~ span:nth-child(3){
+  transform: scale(0);
+}
+
+.menu-toggle input:checked ~ span:nth-child(4){
+  transform: rotate(-45deg) translateX(6px) translateY(-20px);
+}
 main{
     display: -webkit-box;
     display: -ms-flexbox;
@@ -264,6 +316,31 @@ p{
     width: 50%;
     height: auto;
   }
+  nav ul{
+    position: absolute;
+    right: 0;
+    flex-direction: column;
+    background-color: #161616;
+    top: 0;
+    height: 100vh;
+    width: 100%;
+    align-items: center;
+    justify-content: space-evenly;
+    z-index: -1;
+    transform: translateX(100%);
+    opacity: 0;
+    transition: .5s;
+}
+nav a{
+  font-size: 28px;
+}
+.menu-toggle{
+    display: flex;
+}
+nav ul.slide{
+    transform: translateX(0);
+    opacity: 1;
+}
 }
 
 @media only screen and (max-width: 576px) {
