@@ -143,3 +143,9 @@ carousel.addEventListener("touchmove", dragging);
 
 document.addEventListener("mouseup", dragStop);
 carousel.addEventListener("touchend", dragStop);
+
+const menuToggle=document.querySelector(".menu-toggle input");
+const nav=document.querySelector("nav ul");
+menuToggle.addEventListener('click',function(){
+    nav.classList.toggle('slide');
+})
