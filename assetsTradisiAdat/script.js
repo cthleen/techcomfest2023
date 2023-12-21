@@ -29,7 +29,7 @@ function updateText(index) {
     } else if (index === 1) {
         switch_content(images[1].getAttribute("src"), {
             title: "Ngaben",
-            paragraph: "Ngaben adalah upacara pembakaran jenazah umat Hindu di Bali. Upacara ngaben merupakan suatu ritual yang dilaksanakan untuk mengembalikan roh leluhur ke tempat asalnya.Ngaben dalam bahasa Bali berkonotasi halus yang sering disebut palebon.Palebon berasal dari kata lebu yang artinya prathiwi atau tanah. Palebon artinya menjadikan prathiwi (abu).Untuk menjadikan tanah itu ada dua cara yaitu dengan cara membakar (ngaben) dan menanam ke dalam tanah (metanem). Tujuan dari upacara ngaben adalah mempercepat ragha sarira agar dapat kembali ke asalnya,yaitu panca maha buthadi alam ini dan bagi atma dapat cepat menuju alam pitra."
+            paragraph: "Ngaben adalah upacara pembakaran jenazah Hindu di Bali untuk mengembalikan roh leluhur ke tempat asalnya. Dalam bahasa Bali, ngaben juga disebut palebon, yang berasal dari kata 'lebu' (prathiwi/tanah) dan artinya menjadikan tanah (abu). Tujuannya adalah mempercepat ragha sarira agar kembali ke panca maha buthadi alam dan memungkinkan atma menuju alam pitra."
         });
     }else if(index ===2){
         switch_content(images[2].getAttribute("src"), {
