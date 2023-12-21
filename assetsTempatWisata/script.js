@@ -39,7 +39,8 @@ function updateText(index) {
     }else if(index==3){
         switch_content(images[3].getAttribute("src"), {
             title: "Pura Tanah Lot",
-            paragraph: "Pura Tanah Lot merupakan wisata yang wajib dikunjungi saat berwisata ke Bali. Lokasinya yang berada di atas batu karang Pantai Beraban menjadi keunikan dari Pura Tanah Lot. Sejarah Pura Tanah Lot dimulai pada abad ke-15 ketika seorang Bhagawan dari Pulau Jawa yang bernama Dang Hyang Nirartha datang ke Bali. Kedatangannya bertujuan untuk menyebarkan ajaran Agama Hindu dengan nama Dharma Yatra. Namun, kehadirannya membuat pemimpin suci Desa Beraban iri. Dang Hyang Nirartha pun menggunakan kekuatan spiritual untuk melindungi dirinya dari serangan Bendesa Beraban dengan memindahkan batu karang besar ke tengah lautan yang sekarang menjadi Pura Tanah Lot."
+            paragraph: 
+"Pura Tanah Lot di Bali, terletak di atas batu karang Pantai Beraban, adalah destinasi wisata yang sangat direkomendasikan. Sejarahnya dimulai pada abad ke-15, ketika Bhagawan Dang Hyang Nirartha dari Pulau Jawa datang untuk menyebarkan ajaran Agama Hindu. Ia menggunakan kekuatan spiritual untuk melindungi diri dari serangan Bendesa Beraban dengan memindahkan batu karang besar ke tengah lautan, membentuk Pura Tanah Lot."
         });
     }else if(index==4){
         switch_content(images[4].getAttribute("src"), {
